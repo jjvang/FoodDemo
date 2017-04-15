@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Food Demo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category_food">FOOD</string>
+    <string name="food_list">YOUR PICKS!</string>
 </resources>

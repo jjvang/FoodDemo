@@ -17,7 +17,7 @@
 
     <LinearLayout
         android:layout_margin="10dp"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_horizontal">
@@ -27,7 +27,7 @@
             android:text="USER NAME: "/>
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="USER NAME"
             android:id="@+id/editText" />
@@ -47,7 +47,7 @@
             android:id="@+id/textView" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="PASSWORD"
             android:id="@+id/editText2" />
@@ -59,6 +59,7 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/log_in"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -90,6 +91,8 @@
         android:layout_height="50dp"
         android:src="@drawable/googleplus"/>
     </LinearLayout>
+
+
 
 
 </LinearLayout>
